@@ -1,0 +1,350 @@
+<repository lastmodified='20150211095454.800'>
+  <resource id='org.restlet/2.3.0.v20141217-1730' symbolicname='org.restlet' presentationname='org.restlet' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet/2.3.0/org.restlet-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>719746</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet'/>
+      <p n='presentationname' v='org.restlet'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.engine.application,org.restlet.resource,org.restlet.util,org.restlet.engine,org.restlet.routing,org.restlet.service,org.restlet.engine.resource,org.restlet.security,org.restlet.data,org.restlet.engine.connector,org.restlet.representation,org.restlet.engine.component,org.restlet.engine.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.data'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.engine.util,org.restlet.util,org.restlet,org.restlet.engine.security,org.restlet.representation,org.restlet.engine,org.restlet.routing,org.restlet.engine.io,org.restlet.security,org.restlet.engine.header'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.routing,org.restlet.data,org.restlet,org.restlet.representation,org.restlet.engine.log,org.restlet.engine.security,org.restlet.engine.io,org.restlet.engine.util,org.restlet.engine.converter,org.restlet.engine.connector,org.restlet.engine.local,org.restlet.service,org.restlet.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.adapter'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet,org.restlet.data,org.restlet.representation,org.restlet.util,org.restlet.engine.header,org.restlet.engine,org.restlet.service,org.restlet.engine.connector,org.restlet.engine.util,org.restlet.engine.security,org.restlet.engine.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.application'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet,org.restlet.routing,org.restlet.service,org.restlet.util,org.restlet.engine,org.restlet.representation,org.restlet.engine.util,org.restlet.engine.io,org.restlet.engine.resource,org.restlet.engine.header'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.component'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.routing,org.restlet.data,org.restlet,org.restlet.util,org.restlet.engine.util,org.restlet.service,org.restlet.engine.log,org.restlet.engine,org.restlet.resource,org.restlet.representation,javax.xml.parsers,org.w3c.dom,org.xml.sax'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.connector'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet,org.restlet.representation,org.restlet.util,org.restlet.service,org.restlet.data,org.restlet.engine,org.restlet.engine.util,org.restlet.engine.local,org.restlet.engine.adapter,javax.net.ssl,com.sun.net.httpserver,org.restlet.engine.ssl,org.restlet.engine.log'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.converter'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.resource,org.restlet.representation,org.restlet.engine.resource,org.restlet.engine,org.restlet,org.restlet.engine.application,org.restlet.engine.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.header'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.util,org.restlet.representation,org.restlet.engine.util,org.restlet,org.restlet.engine.security'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.internal'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.osgi.framework,org.restlet,org.restlet.engine'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.io'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.representation,org.restlet,org.restlet.engine.util,org.restlet.data,org.restlet.engine,org.restlet.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.local'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.service,org.restlet.data,org.restlet.representation,org.restlet,org.restlet.resource,org.restlet.engine.io,org.restlet.util,org.restlet.engine.connector'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.log'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.engine.io,org.restlet.engine.util,org.restlet,org.restlet.routing,org.restlet.service,org.restlet.data,org.restlet.engine'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.resource'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.service,org.restlet.data,org.restlet.resource,org.restlet.representation,org.restlet.engine.connector,org.restlet,org.restlet.engine.application'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.security'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.util,org.restlet,org.restlet.engine,org.restlet.engine.header,org.restlet.engine.util,org.restlet.security'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.ssl'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.net.ssl,org.restlet.data,org.restlet.util,org.restlet,org.restlet.engine'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.engine.util'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.engine.io,org.restlet.representation,org.restlet,org.restlet.util,org.restlet.service,org.restlet.engine.log,org.w3c.dom.ls,org.xml.sax.helpers,org.xml.sax,org.restlet.engine,org.restlet.engine.security,org.restlet.routing'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.representation'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.engine.io,org.restlet,org.restlet.util,org.restlet.engine,org.restlet.engine.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.resource'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.representation,org.restlet,org.restlet.util,org.restlet.engine,org.restlet.service,org.restlet.data,org.restlet.engine.util,org.restlet.engine.resource,org.restlet.engine.connector,org.restlet.engine.local,org.restlet.security'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.routing'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.representation,org.restlet,org.restlet.util,org.restlet.resource'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.security'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.routing,org.restlet.data,org.restlet,javax.security.auth.x500,org.restlet.engine.security,org.restlet.util,org.restlet.engine.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.service'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.representation,org.restlet.engine.application,org.restlet,org.restlet.resource,org.restlet.engine.converter,org.restlet.engine,org.restlet.routing,org.restlet.engine.util,org.restlet.engine.log,org.restlet.engine.resource'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.util'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.representation,org.restlet.data,org.restlet.engine.io,org.restlet,org.restlet.engine.util,org.restlet.routing,org.restlet.service'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.net.httpserver))' extend='false' multiple='false' optional='true'>Import package com.sun.net.httpserver;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='true'>Import package javax.net.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.x500))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.x500;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.ls))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom.ls;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.helpers;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+  <resource id='org.restlet.ext.crypto/2.3.0.v20141217-1730' symbolicname='org.restlet.ext.crypto' presentationname='org.restlet.ext.crypto' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet.ext.crypto/2.3.0/org.restlet.ext.crypto-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>37044</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet.ext.crypto'/>
+      <p n='presentationname' v='org.restlet.ext.crypto'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.crypto'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.ext.crypto.internal,org.restlet.security,org.restlet,org.restlet.engine.util,org.restlet.representation,org.restlet.util,javax.crypto.spec,javax.crypto'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.crypto.internal'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.engine.io,org.restlet.engine.util,org.restlet,org.restlet.util,org.restlet.ext.crypto,org.restlet.security,javax.crypto.spec,javax.crypto,org.restlet.engine.security,org.restlet.engine.header'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.crypto))' extend='false' multiple='false' optional='true'>Import package javax.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto.spec))' extend='false' multiple='false' optional='true'>Import package javax.crypto.spec;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='true'>Import package org.restlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='true'>Import package org.restlet.data;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.header))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.header;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.io))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.io;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.security))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.security;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.util;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='true'>Import package org.restlet.representation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.security))' extend='false' multiple='false' optional='true'>Import package org.restlet.security;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.util;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+  <resource id='org.restlet.ext.jetty/2.3.0.v20141217-1730' symbolicname='org.restlet.ext.jetty' presentationname='org.restlet.ext.jetty' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet.ext.jetty/2.3.0/org.restlet.ext.jetty-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>22858</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet.ext.jetty'/>
+      <p n='presentationname' v='org.restlet.ext.jetty'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.jetty'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.eclipse.jetty.client,org.restlet.ext.jetty.internal,org.eclipse.jetty.http,org.restlet.util,org.restlet,org.restlet.engine,org.restlet.engine.adapter,org.restlet.data,org.eclipse.jetty.util.thread,org.restlet.engine.util,org.restlet.engine.ssl,org.eclipse.jetty.util.ssl,org.eclipse.jetty.server,javax.servlet,org.eclipse.jetty.io,org.eclipse.jetty.spdy.server.http,org.eclipse.jetty.spdy.server'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.jetty.internal'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.eclipse.jetty.client,org.eclipse.jetty.http,org.eclipse.jetty.client.util,org.eclipse.jetty.client.api,org.restlet.representation,org.restlet.ext.jetty,org.restlet,org.restlet.util,org.restlet.engine.adapter,org.restlet.data,org.eclipse.jetty.server,javax.servlet,org.eclipse.jetty.server.handler,javax.servlet.http,org.eclipse.jetty.io,org.restlet.engine.ssl,javax.net.ssl,org.eclipse.jetty.util.ssl'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='true'>Import package javax.net.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.client))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.client;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.client.api))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.client.api;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.client.util))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.client.util;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.http))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.io))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.io;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.server))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.server;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.server.handler))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.server.handler;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.spdy.server))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.spdy.server;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.spdy.server.http))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.spdy.server.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.util.ssl))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.util.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.util.thread))' extend='false' multiple='false' optional='true'>Import package org.eclipse.jetty.util.thread;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='true'>Import package org.restlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='true'>Import package org.restlet.data;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.adapter))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.adapter;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.ssl))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.util;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='true'>Import package org.restlet.representation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.util;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+  <resource id='org.restlet.ext.json/2.3.0.v20141217-1730' symbolicname='org.restlet.ext.json' presentationname='org.restlet.ext.json' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet.ext.json/2.3.0/org.restlet.ext.json-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>9098</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet.ext.json'/>
+      <p n='presentationname' v='org.restlet.ext.json'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.json'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.data,org.restlet.resource,org.json,org.restlet.engine.resource,org.restlet.representation,org.restlet.engine.converter,org.restlet.routing,org.restlet,org.restlet.engine.io,org.restlet.util'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.json))' extend='false' multiple='false' optional='true'>Import package org.json;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='true'>Import package org.restlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='true'>Import package org.restlet.data;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.converter))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.converter;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.io))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.io;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.resource))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.resource;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='true'>Import package org.restlet.representation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.resource))' extend='false' multiple='false' optional='true'>Import package org.restlet.resource;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.routing))' extend='false' multiple='false' optional='true'>Import package org.restlet.routing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.util;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+  <resource id='org.restlet.ext.oauth/2.3.0.v20141217-1730' symbolicname='org.restlet.ext.oauth' presentationname='org.restlet.ext.oauth' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet.ext.oauth/2.3.0/org.restlet.ext.oauth-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>74301</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet.ext.oauth'/>
+      <p n='presentationname' v='org.restlet.ext.oauth'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.oauth'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.json,org.restlet.ext.oauth.internal,org.restlet.data,org.restlet.resource,org.restlet.representation,org.restlet.ext.json,org.restlet,javax.naming,org.restlet.security,org.restlet.ext.freemarker,freemarker.cache,freemarker.template,org.restlet.util,org.restlet.routing,org.restlet.engine.security,org.restlet.engine.header,org.restlet.engine.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.oauth.internal'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.ext.oauth,org.restlet.engine.util,javax.crypto.spec,javax.crypto,org.restlet.ext.crypto,javax.naming,org.restlet.security'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.oauth.internal.memory'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.ext.oauth,org.restlet.ext.oauth.internal'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=freemarker.cache))' extend='false' multiple='false' optional='true'>Import package freemarker.cache;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=freemarker.template))' extend='false' multiple='false' optional='true'>Import package freemarker.template;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto))' extend='false' multiple='false' optional='true'>Import package javax.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto.spec))' extend='false' multiple='false' optional='true'>Import package javax.crypto.spec;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming))' extend='false' multiple='false' optional='true'>Import package javax.naming;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.json))' extend='false' multiple='false' optional='true'>Import package org.json;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='true'>Import package org.restlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='true'>Import package org.restlet.data;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.header))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.header;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.security))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.security;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.util;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.ext.crypto))' extend='false' multiple='false' optional='true'>Import package org.restlet.ext.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.ext.freemarker))' extend='false' multiple='false' optional='true'>Import package org.restlet.ext.freemarker;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.ext.json))' extend='false' multiple='false' optional='true'>Import package org.restlet.ext.json;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='true'>Import package org.restlet.representation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.resource))' extend='false' multiple='false' optional='true'>Import package org.restlet.resource;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.routing))' extend='false' multiple='false' optional='true'>Import package org.restlet.routing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.security))' extend='false' multiple='false' optional='true'>Import package org.restlet.security;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.util;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+  <resource id='org.restlet.ext.osgi/2.3.0.v20141217-1730' symbolicname='org.restlet.ext.osgi' presentationname='org.restlet.ext.osgi' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet.ext.osgi/2.3.0/org.restlet.ext.osgi-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>17855</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet.ext.osgi'/>
+      <p n='presentationname' v='org.restlet.ext.osgi'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.osgi'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet,org.osgi.service.http,org.osgi.service.component,org.restlet.resource,org.restlet.routing,org.osgi.service.log,org.osgi.framework,org.restlet.service,org.restlet.data,org.restlet.representation,org.restlet.engine.local'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.osgi.internal'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.restlet.ext.osgi,org.osgi.framework'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.osgi.framework))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.component))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.component;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.log;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='true'>Import package org.restlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='true'>Import package org.restlet.data;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.local))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.local;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='true'>Import package org.restlet.representation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.resource))' extend='false' multiple='false' optional='true'>Import package org.restlet.resource;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.routing))' extend='false' multiple='false' optional='true'>Import package org.restlet.routing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.service))' extend='false' multiple='false' optional='true'>Import package org.restlet.service;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+  <resource id='org.restlet.ext.servlet/2.3.0.v20141217-1730' symbolicname='org.restlet.ext.servlet' presentationname='org.restlet.ext.servlet' uri='http://maven.restlet.com/org/restlet/osgi/org.restlet.ext.servlet/2.3.0/org.restlet.ext.servlet-2.3.0.jar' version='2.3.0.v20141217-1730'>
+    <size>26363</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.restlet.ext.servlet'/>
+      <p n='presentationname' v='org.restlet.ext.servlet'/>
+      <p n='version' t='version' v='2.3.0.v20141217-1730'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.servlet'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.servlet,org.restlet.ext.osgi,org.restlet,org.osgi.service.log,org.osgi.service.http,org.restlet.representation,org.restlet.ext.servlet.internal,org.restlet.util,org.restlet.engine,org.restlet.engine.adapter,org.restlet.routing,org.restlet.service,org.restlet.data,org.restlet.engine.component,javax.servlet.http'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.restlet.ext.servlet.internal'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.servlet,org.restlet.data,org.restlet.engine.io,org.restlet.representation,org.restlet,org.restlet.util,org.restlet.engine.adapter,javax.servlet.http,org.restlet.engine.connector,org.restlet.service,org.restlet.engine.local'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='OSGI-INF'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.log;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='true'>Import package org.restlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='true'>Import package org.restlet.data;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.adapter))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.adapter;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.component))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.component;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.connector))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.connector;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.io))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.io;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.local))' extend='false' multiple='false' optional='true'>Import package org.restlet.engine.local;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.ext.osgi))' extend='false' multiple='false' optional='true'>Import package org.restlet.ext.osgi;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='true'>Import package org.restlet.representation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.routing))' extend='false' multiple='false' optional='true'>Import package org.restlet.routing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.service))' extend='false' multiple='false' optional='true'>Import package org.restlet.service;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.restlet.util))' extend='false' multiple='false' optional='true'>Import package org.restlet.util;resolution:=optional</require>
+    <require name='ee' filter='(|(ee=JavaSE-1.7))' extend='false' multiple='false' optional='false'>Execution Environment (|(ee=JavaSE-1.7))</require>
+  </resource>
+</repository>

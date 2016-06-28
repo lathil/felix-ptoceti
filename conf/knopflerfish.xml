@@ -1,0 +1,48 @@
+<repository lastmodified='20141003090538.754'>
+  <resource id='org.knopflerfish.bundle.kxml-LIB/2.3.0.kf3' symbolicname='org.knopflerfish.bundle.kxml-LIB' presentationname='kXML 2-LIB' uri='http://www.knopflerfish.org/maven2/org/knopflerfish/bundle/kxml-LIB/2.3.0.kf3/kxml-LIB-2.3.0.kf3.jar' version='2.3.0.kf3'>
+    <description>Packing of kXML 2 as a bundle (LIB)</description>
+    <size>56502</size>
+    <documentation>http://www.knopflerfish.org/releases/3.3.0/docs/bundledoc/index.html?docpage=kmxl/index.html</documentation>
+    <category id='lib'/>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.knopflerfish.bundle.kxml-LIB'/>
+      <p n='presentationname' v='kXML 2-LIB'/>
+      <p n='version' t='version' v='2.3.0.kf3'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.xmlpull.v1'/>
+      <p n='version' t='version' v='1.1.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.kxml2.io'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.xmlpull.v1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.kxml2.kdom'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.xmlpull.v1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.kxml2.wap'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.xmlpull.v1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.kxml2.wap.syncml'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.kxml2.wap'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.kxml2.wap.wml'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.kxml2.wap'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.kxml2.wap.wv'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.kxml2.wap'/>
+    </capability>
+  </resource>
+</repository>

@@ -1,0 +1,43 @@
+obr:repos remove http://felix.apache.org/obr/releases.xml;
+obr:repos add file:/opt/osgi/felix-framework-4.2.1/conf/felix.xml;
+obr:repos add file:/opt/osgi/felix-framework-4.2.1/conf/restlet.xml;
+obr:repos add file:/opt/osgi/felix-framework-4.2.1/conf/central.xml;
+obr:repos add file:/opt/osgi/felix-framework-4.2.1/conf/knopflerfish.xml;
+obr:repos refresh;
+obr:deploy 'osgi.cmpn';
+obr:deploy 'osgi.core';
+obr:deploy 'org.apache.geronimo.bundles.json';
+obr:deploy 'Apache Commons FileUpload Bundle';
+obr:deploy 'Apache Commons IO Bundle';
+obr:deploy 'Java Servlet API';
+obr:deploy 'com.fasterxml.jackson.core.jackson-core';
+obr:deploy 'com.fasterxml.jackson.core.jackson-databind';
+obr:deploy 'com.fasterxml.jackson.core.jackson-annotations';
+obr:deploy 'com.google.inject';
+obr:deploy 'com.google.guava';
+obr:deploy 'org.knopflerfish.bundle.kxml-LIB';
+obr:deploy -s 'org.ops4j.pax.configmanager';
+obr:deploy 'org.ops4j.pax.logging.pax-logging-api';
+obr:deploy -s 'org.ops4j.pax.logging.pax-logging-service';
+obr:deploy -s 'Apache Felix Configuration Admin Service';
+obr:deploy 'Apache Felix File Install';
+obr:deploy 'Apache Felix Metatype Service';
+obr:deploy 'Apache Felix Http Api';
+obr:deploy 'Apache Felix Http Jetty';
+obr:deploy 'Apache Felix Http Whiteboard';
+obr:deploy 'Apache Felix Web Management Console';
+obr:deploy 'org.restlet';
+obr:deploy 'org.restlet.ext.servlet';
+obr:deploy 'org.restlet.ext.osgi';
+obr:deploy 'org.restlet.ext.jetty';
+obr:deploy 'org.restlet.ext.oauth';
+obr:deploy 'org.restlet.ext.crypto';
+start 21;
+start 24;
+start 25;
+start 26;
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ModbusDevice>
+	<References>
+	</References>
+	<Measurements>
+		<Measurement>
+			<Identification>room.temperature</Identification>
+			<Scope>com.ptoceti.osgi.heatingcontrol.marcilly</Scope>
+			<Expression>K</Expression>
+			<Adress>100</Adress>
+			<Length>2</Length>
+		</Measurement>
+		<Measurement>
+			<Identification>room.presure</Identification>
+			<Scope>com.ptoceti.osgi.heatingcontrol.marcilly</Scope>
+			<Expression>Pa</Expression>
+			<Adress>102</Adress>
+			<Length>2</Length>
+		</Measurement>
+	</Measurements>
+	<States>
+	</States>
+</ModbusDevice>

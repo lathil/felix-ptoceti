@@ -1,0 +1,481 @@
+<repository lastmodified='20150212070527.105'>
+  <resource id='com.google.guava/17.0.0' symbolicname='com.google.guava' presentationname='Guava: Google Core Libraries for Java' uri='http://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar' version='17.0.0'>
+    <description>Guava is a suite of core and expanded libraries that include    utility classes, google&apos;s collections, io classes, and much    much more.    Guava has only one code dependency - javax.annotation,    per the JSR-305 spec.</description>
+    <size>2243036</size>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.google.guava'/>
+      <p n='presentationname' v='Guava: Google Core Libraries for Java'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.net'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation,com.google.common.base,com.google.common.hash,com.google.common.io,com.google.common.primitives,com.google.common.collect,com.google.common.escape'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.html'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.escape,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.collect'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation,com.google.common.primitives,com.google.common.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.primitives'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation,sun.misc'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.base'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.escape'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.cache'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.collect,com.google.common.util.concurrent,javax.annotation,com.google.common.base,com.google.common.primitives,sun.misc'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.eventbus'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.collect,com.google.common.cache,javax.annotation,com.google.common.base,com.google.common.util.concurrent,com.google.common.reflect'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.util.concurrent'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation,com.google.common.collect,com.google.common.primitives,com.google.common.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.hash'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.primitives,com.google.common.base,javax.annotation,com.google.common.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.io'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation,com.google.common.base,com.google.common.math,com.google.common.hash,com.google.common.collect,com.google.common.primitives'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.xml'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.escape,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.reflect'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation,com.google.common.base,com.google.common.collect,com.google.common.primitives'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.math'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,com.google.common.primitives,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.annotations'/>
+      <p n='version' t='version' v='17.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='true'>Import package javax.annotation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='true'>Import package javax.inject;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.misc))' extend='false' multiple='false' optional='true'>Import package sun.misc;resolution:=optional</require>
+  </resource>
+  <resource id='com.google.inject/2.0.0.no_aop' symbolicname='com.google.inject' presentationname='guice' uri='http://repo1.maven.org/maven2/com/google/inject/guice/2.0-no_aop/guice-2.0-no_aop.jar' version='2.0.0.no_aop'>
+    <description>Guice is a lightweight dependency injection framework for Java 5 and above</description>
+    <size>440707</size>
+    <documentation>http://code.google.com/p/google-guice/</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.google.inject'/>
+      <p n='presentationname' v='guice'/>
+      <p n='version' t='version' v='2.0.0.no_aop'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.name'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject,com.google.inject.binder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.binder'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.spi'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject,com.google.inject.binder,com.google.inject.matcher'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.matcher'/>
+      <p n='version' t='version' v='1.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.util'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject,com.google.inject.spi'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject.spi,com.google.inject.binder,com.google.inject.matcher,com.google.inject.util'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.google.inject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.binder)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.binder;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.matcher)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.matcher;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.name)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.name;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.spi)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.spi;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.util;version="[1.2,2)"</require>
+  </resource>
+  <resource id='com.fasterxml.jackson.core.jackson-annotations/2.2.0' symbolicname='com.fasterxml.jackson.core.jackson-annotations' presentationname='Jackson-annotations' uri='http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.0/jackson-annotations-2.2.0.jar' version='2.2.0'>
+    <description>Core annotations used for value types, used by Jackson data binding package.</description>
+    <size>33436</size>
+    <documentation>http://wiki.fasterxml.com/JacksonHome</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fasterxml.jackson.core.jackson-annotations'/>
+      <p n='presentationname' v='Jackson-annotations'/>
+      <p n='version' t='version' v='2.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.annotation'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+  </resource>
+  <resource id='com.fasterxml.jackson.core.jackson-core/2.2.0' symbolicname='com.fasterxml.jackson.core.jackson-core' presentationname='Jackson-core' uri='http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.0/jackson-core-2.2.0.jar' version='2.2.0'>
+    <description>Core Jackson abstractions, basic JSON streaming API implementation</description>
+    <size>191950</size>
+    <documentation>http://wiki.fasterxml.com/JacksonHome</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fasterxml.jackson.core.jackson-core'/>
+      <p n='presentationname' v='Jackson-core'/>
+      <p n='version' t='version' v='2.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.io'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.json'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.util'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.base'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.sym'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.type'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.format'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+  </resource>
+  <resource id='com.fasterxml.jackson.core.jackson-databind/2.2.0' symbolicname='com.fasterxml.jackson.core.jackson-databind' presentationname='jackson-databind' uri='http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.0/jackson-databind-2.2.0.jar' version='2.2.0'>
+    <description>General data-binding functionality for Jackson: works on core streaming API</description>
+    <size>864796</size>
+    <documentation>http://wiki.fasterxml.com/JacksonHome</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt, http://www.gnu.org/licenses/lgpl-2.1.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fasterxml.jackson.core.jackson-databind'/>
+      <p n='presentationname' v='jackson-databind'/>
+      <p n='version' t='version' v='2.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.annotation'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.cfg'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.deser'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.deser.impl'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.deser.std'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.exc'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ext'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.introspect'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsonschema'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsonFormatVisitors'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsontype'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsontype.impl'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.module'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.node'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ser'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ser.impl'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ser.std'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.type'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.util'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.annotation))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.annotation</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.base))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.base</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.format))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.format</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.io))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.io</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.json))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.json</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.type))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.type</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.util))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.util</require>
+    <require name='package' filter='(&amp;(package=javax.xml.datatype))' extend='false' multiple='false' optional='false'>Import package javax.xml.datatype</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='false'>Import package javax.xml.namespace</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.bootstrap))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.bootstrap</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.ls))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.ls</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+  </resource>
+  <resource id='org.ops4j.pax.configmanager/0.2.3' symbolicname='org.ops4j.pax.configmanager' presentationname='OPS4J Pax ConfMan - Properties Loader' uri='http://repo1.maven.org/maven2/org/ops4j/pax/confman/pax-confman-propsloader/0.2.3/pax-confman-propsloader-0.2.3.jar' version='0.2.3'>
+    <description>Pax Configuration Manger Service provides a framework to read files (default property files handling is supplied)    from a directory and use ConfigurationAdmin to update the service with the properties loaded.</description>
+    <size>30067</size>
+    <documentation>http://www.ops4j.org/</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.ops4j.pax.configmanager'/>
+      <p n='presentationname' v='OPS4J Pax ConfMan - Properties Loader'/>
+      <p n='version' t='version' v='0.2.3'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.ops4j.pax.configmanager'/>
+      <p n='version' t='version' v='0.2.3'/>
+      <p n='uses:' v='org.osgi.framework'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=1.0.4))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.logging;resolution:=optional;version=1.0.4</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.configmanager)(version&gt;=0.2.3))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.configmanager;version=0.2.3</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.tracker;version="[1.0.0,2.0.0)"</require>
+  </resource>
+  <resource id='org.ops4j.pax.logging.pax-logging-api/1.4.0' symbolicname='org.ops4j.pax.logging.pax-logging-api' presentationname='OPS4J Pax Logging - API' uri='http://repo1.maven.org/maven2/org/ops4j/pax/logging/pax-logging-api/1.4/pax-logging-api-1.4.jar' version='1.4.0'>
+    <description>The Pax Logging API Library is to allow for the Pax Logging Service to be reloaded without stopping the many    dependent bundles. It also contains the OSGi Log Service API and the Knopflerfish Log API.</description>
+    <size>88414</size>
+    <documentation>http://www.ops4j.org/projects/pax/logging/pax-logging-api</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.ops4j.pax.logging.pax-logging-api'/>
+      <p n='presentationname' v='OPS4J Pax Logging - API'/>
+      <p n='version' t='version' v='1.4.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.juli.logging'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.ops4j.pax.logging,org.osgi.framework'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.knopflerfish.service.log'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.osgi.service.log,org.osgi.framework'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j.spi'/>
+      <p n='version' t='version' v='1.5.6'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.slf4j'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.log4j.spi'/>
+      <p n='version' t='version' v='1.2.15'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.apache.log4j'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.avalon.framework.logger'/>
+      <p n='version' t='version' v='4.3.0'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.apache.log'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.log4j.xml'/>
+      <p n='version' t='version' v='1.2.15'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='javax.xml.parsers,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging'/>
+      <p n='version' t='version' v='1.1.1'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.ops4j.pax.logging,org.osgi.framework'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.ops4j.pax.logging'/>
+      <p n='version' t='version' v='1.4.0'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.knopflerfish.service.log,org.osgi.framework,org.osgi.util.tracker'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging.impl'/>
+      <p n='version' t='version' v='1.1.1'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.apache.commons.logging'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.log4j'/>
+      <p n='version' t='version' v='1.2.15'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.ops4j.pax.logging,org.apache.log4j.spi,org.osgi.framework'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.osgi.service.log'/>
+      <p n='version' t='version' v='1.3.0'/>
+      <p n='uses:' v='org.osgi.framework'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j'/>
+      <p n='version' t='version' v='1.5.6'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.slf4j.spi,org.slf4j.helpers'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j.helpers'/>
+      <p n='version' t='version' v='1.5.6'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.slf4j.spi,org.slf4j'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.ops4j.pax.logging.avalon'/>
+      <p n='version' t='version' v='1.4.0'/>
+      <p n='provider' v='paxlogging'/>
+      <p n='uses:' v='org.ops4j.pax.logging,org.apache.avalon.framework.logger,org.osgi.framework'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=org.apache.avalon.framework.logger)(version&gt;=4.3.0)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.avalon.framework.logger;provider=paxlogging;version=4.3</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=1.1.1)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging;provider=paxlogging;version=1.1.1</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging.impl)(version&gt;=1.1.1)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging.impl;provider=paxlogging;version=1.1.1</require>
+    <require name='package' filter='(&amp;(package=org.apache.juli.logging)(version&gt;=1.0.0)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.juli.logging;provider=paxlogging;version=1.0</require>
+    <require name='package' filter='(&amp;(package=org.apache.log))' extend='false' multiple='false' optional='true'>Import package org.apache.log;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.log4j)(version&gt;=1.2.15)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.log4j;provider=paxlogging;version=1.2.15</require>
+    <require name='package' filter='(&amp;(package=org.apache.log4j.spi)(version&gt;=1.2.15)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.log4j.spi;provider=paxlogging;version=1.2.15</require>
+    <require name='package' filter='(&amp;(package=org.apache.log4j.xml)(version&gt;=1.2.15)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.apache.log4j.xml;provider=paxlogging;version=1.2.15</require>
+    <require name='package' filter='(&amp;(package=org.knopflerfish.service.log)(version&gt;=1.1.0)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.knopflerfish.service.log;provider=paxlogging;version=1.1.0</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.logging)(version&gt;=0.9.5)(!(version&gt;=2.0.0))(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.logging;provider=paxlogging;version="[0.9.5,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.logging.avalon)(version&gt;=0.9.5)(!(version&gt;=2.0.0))(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.logging.avalon;provider=paxlogging;version="[0.9.5,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.event;resolution:=optional;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.tracker;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.5.6)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.slf4j;provider=paxlogging;version=1.5.6</require>
+    <require name='package' filter='(&amp;(package=org.slf4j.helpers)(version&gt;=1.5.6)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.slf4j.helpers;provider=paxlogging;version=1.5.6</require>
+    <require name='package' filter='(&amp;(package=org.slf4j.spi)(version&gt;=1.5.6)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.slf4j.spi;provider=paxlogging;version=1.5.6</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+  </resource>
+  <resource id='org.ops4j.pax.logging.pax-logging-service/1.4.0' symbolicname='org.ops4j.pax.logging.pax-logging-service' presentationname='OPS4J Pax Logging - Service' uri='http://repo1.maven.org/maven2/org/ops4j/pax/logging/pax-logging-service/1.4/pax-logging-service-1.4.jar' version='1.4.0'>
+    <description>Pax Logging Service is a Log4J driven service that supports Jakarta Commons Logging,    Log4J, Avalon Logging, SLF4J and Pax Logging clients. Note that all this clients must use the Pax Logging    Client library in the proper way. See documentation for details.</description>
+    <size>427221</size>
+    <documentation>http://www.ops4j.org/projects/pax/logging/pax-logging-service</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.ops4j.pax.logging.pax-logging-service'/>
+      <p n='presentationname' v='OPS4J Pax Logging - Service'/>
+      <p n='version' t='version' v='1.4.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.ops4j.pax.logging.spi'/>
+      <p n='version' t='version' v='1.4.0'/>
+      <p n='provider' v='paxlogging'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.jdmk.comm))' extend='false' multiple='false' optional='true'>Import package com.sun.jdmk.comm;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.jms))' extend='false' multiple='false' optional='true'>Import package javax.jms;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.mail))' extend='false' multiple='false' optional='true'>Import package javax.mail;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.mail.internet))' extend='false' multiple='false' optional='true'>Import package javax.mail.internet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.management))' extend='false' multiple='false' optional='true'>Import package javax.management;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming))' extend='false' multiple='false' optional='true'>Import package javax.naming;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.border))' extend='false' multiple='false' optional='true'>Import package javax.swing.border;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.event))' extend='false' multiple='false' optional='true'>Import package javax.swing.event;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.table))' extend='false' multiple='false' optional='true'>Import package javax.swing.table;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.text))' extend='false' multiple='false' optional='true'>Import package javax.swing.text;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.tree))' extend='false' multiple='false' optional='true'>Import package javax.swing.tree;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=org.knopflerfish.service.log)(version&gt;=1.1.0)(!(version&gt;=2.0.0))(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.knopflerfish.service.log;provider=paxlogging;version="[1.1.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.logging)(version&gt;=0.9.5)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.logging;version="[0.9.5,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.logging.spi)(version&gt;=1.4.0)(provider=paxlogging)(mandatory:&lt;*provider))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.logging.spi;provider=paxlogging;version=1.4</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.tracker;version="[1.3.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='false'>Import package org.xml.sax.helpers</require>
+  </resource>
+</repository>

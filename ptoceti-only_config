@@ -1,0 +1,19 @@
+obr:repos remove http://felix.apache.org/obr/releases.xml;
+obr:repos add file:/opt/osgi/felix-framework-4.2.1/conf/ptoceti.xml;
+obr:repos refresh;
+obr:deploy -s 'com.ptoceti.osgi.control';
+obr:deploy -s 'com.ptoceti.osgi.data';
+obr:deploy -s 'com.ptoceti.osgi.rxtx';
+obr:deploy -s 'com.ptoceti.osgi.wireadmin';
+obr:deploy -s 'com.ptoceti.osgi.modbus';
+obr:deploy -s 'com.ptoceti.osgi.modbusdevice';
+obr:deploy -s 'com.ptoceti.osgi.dfrobot.sensornode';
+obr:deploy -s 'com.ptoceti.osgi.pi';
+obr:deploy -s 'com.ptoceti.osgi.sqlite';
+obr:deploy -s 'com.ptoceti.osgi.obix-api';
+obr:deploy -s 'com.ptoceti.osgi.obix-lib';
+obr:deploy -s 'com.ptoceti.osgi.obix.backbones';
+
+
+
+

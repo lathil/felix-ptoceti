@@ -1,0 +1,308 @@
+<repository lastmodified='20141213025200.423'>
+  <resource id='com.ptoceti.osgi.control/1.0.0' symbolicname='com.ptoceti.osgi.control' presentationname='Control' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.control/1.0.0/com.ptoceti.osgi.control-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s control library</description>
+    <size>15724</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.control'/>
+      <p n='presentationname' v='Control'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.control'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='org.osgi.util.measurement'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.osgi.util.measurement)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.measurement;version="[1.0,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.data/1.0.0' symbolicname='com.ptoceti.osgi.data' presentationname='Data' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.data/1.0.0/com.ptoceti.osgi.data-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s jdbc device service</description>
+    <size>31395</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.data'/>
+      <p n='presentationname' v='Data'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.data'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.data))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.data</require>
+    <require name='package' filter='(&amp;(package=javax.sql))' extend='false' multiple='false' optional='false'>Import package javax.sql</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.jdbc)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.jdbc;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.modbus/1.0.0' symbolicname='com.ptoceti.osgi.modbus' presentationname='Modbus' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.modbus/1.0.0/com.ptoceti.osgi.modbus-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s modbus driver service</description>
+    <size>49068</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.modbus'/>
+      <p n='presentationname' v='Modbus'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.modbus'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.modbus))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.modbus</require>
+    <require name='package' filter='(&amp;(package=gnu.io)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package gnu.io;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.modbusdevice/1.0.0' symbolicname='com.ptoceti.osgi.modbusdevice' presentationname='ModbusDevice' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.modbusdevice/1.0.0/com.ptoceti.osgi.modbusdevice-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s modbus device service</description>
+    <size>41061</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.modbusdevice'/>
+      <p n='presentationname' v='ModbusDevice'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.modbusdevice'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='org.osgi.service.wireadmin'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.control)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.control;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.modbus)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.modbus;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.modbusdevice))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.modbusdevice</require>
+    <require name='package' filter='(&amp;(package=org.kxml2.io))' extend='false' multiple='false' optional='false'>Import package org.kxml2.io</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.wireadmin)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.wireadmin;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.measurement)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.measurement;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.xmlpull.v1)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.xmlpull.v1;version="[1.1,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.obix.backbones/1.0.0' symbolicname='com.ptoceti.osgi.obix.backbones' presentationname='Obix Backbones' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.obix.backbones/1.0.0/com.ptoceti.osgi.obix.backbones-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s Obix Backbones client</description>
+    <size>553241</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.obix.backbones'/>
+      <p n='presentationname' v='Obix Backbones'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.backbones'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.servlet)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.servlet;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jetty.servlets)(version&gt;=8.1.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.eclipse.jetty.servlets;version="[8.1,9)"</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard.runtime)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard.runtime;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.obix-api/1.0.0' symbolicname='com.ptoceti.osgi.obix-api' presentationname='Obix-Api' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.obix-api/1.0.0/com.ptoceti.osgi.obix-api-1.0.0.jar' version='1.0.0'>
+    <description>Obix-Api</description>
+    <size>135458</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.obix-api'/>
+      <p n='presentationname' v='Obix-Api'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.constants'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.contract'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.ptoceti.osgi.obix.object'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.custom.contract'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.ptoceti.osgi.obix.object'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.object'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.resources'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.ptoceti.osgi.obix.contract,com.ptoceti.osgi.obix.object,org.restlet.resource'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.restlet.resource))' extend='false' multiple='false' optional='false'>Import package org.restlet.resource</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.obix-lib/1.0.0' symbolicname='com.ptoceti.osgi.obix-lib' presentationname='Obix-Lib' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.obix-lib/1.0.0/com.ptoceti.osgi.obix-lib-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s Obix service</description>
+    <size>190432</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.obix-lib'/>
+      <p n='presentationname' v='Obix-Lib'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.cache'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.ptoceti.osgi.obix.contract,com.ptoceti.osgi.obix.domain,com.ptoceti.osgi.obix.object'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.domain'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.ptoceti.osgi.obix.contract,com.ptoceti.osgi.obix.object'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.obix.restlet'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.servlet,javax.servlet.http,org.restlet,org.restlet.routing'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.annotation)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.annotation;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind.deser.std)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind.deser.std;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind.node)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind.node;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=com.google.common.cache)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.cache;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.binder)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.binder;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.control)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.control;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.data)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.data;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.obix.cache))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.obix.cache</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.obix.contract)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.obix.contract;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.obix.custom.contract)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.obix.custom.contract;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.obix.object)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.obix.object;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.obix.resources)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.obix.resources;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.servlet)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.servlet;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.servlet.http;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.http;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.wireadmin)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.wireadmin;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.measurement)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.measurement;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.restlet))' extend='false' multiple='false' optional='false'>Import package org.restlet</require>
+    <require name='package' filter='(&amp;(package=org.restlet.data))' extend='false' multiple='false' optional='false'>Import package org.restlet.data</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine))' extend='false' multiple='false' optional='false'>Import package org.restlet.engine</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.converter))' extend='false' multiple='false' optional='false'>Import package org.restlet.engine.converter</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.header))' extend='false' multiple='false' optional='false'>Import package org.restlet.engine.header</require>
+    <require name='package' filter='(&amp;(package=org.restlet.engine.resource))' extend='false' multiple='false' optional='false'>Import package org.restlet.engine.resource</require>
+    <require name='package' filter='(&amp;(package=org.restlet.ext.servlet))' extend='false' multiple='false' optional='false'>Import package org.restlet.ext.servlet</require>
+    <require name='package' filter='(&amp;(package=org.restlet.representation))' extend='false' multiple='false' optional='false'>Import package org.restlet.representation</require>
+    <require name='package' filter='(&amp;(package=org.restlet.resource))' extend='false' multiple='false' optional='false'>Import package org.restlet.resource</require>
+    <require name='package' filter='(&amp;(package=org.restlet.routing))' extend='false' multiple='false' optional='false'>Import package org.restlet.routing</require>
+    <require name='package' filter='(&amp;(package=org.restlet.util))' extend='false' multiple='false' optional='false'>Import package org.restlet.util</require>
+    <require name='package' filter='(&amp;(package=org.xmlpull.v1)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.xmlpull.v1;version="[1.1,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.pi/1.0.0' symbolicname='com.ptoceti.osgi.pi' presentationname='Pi' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.pi/1.0.0/com.ptoceti.osgi.pi-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s Pi service</description>
+    <size>16107</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.pi'/>
+      <p n='presentationname' v='Pi'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.pi4j.system)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pi4j.system;version="[0.0,1)"</require>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.control)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.control;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.wireadmin)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.wireadmin;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.measurement)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.measurement;version="[1.0,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.rxtx/1.0.0' symbolicname='com.ptoceti.osgi.rxtx' presentationname='Rxtx' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.rxtx/1.0.0/com.ptoceti.osgi.rxtx-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s packaging of Rxtx</description>
+    <size>638552</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.rxtx'/>
+      <p n='presentationname' v='Rxtx'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='gnu.io'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+  </resource>
+  <resource id='com.ptoceti.osgi.dfrobot.sensornode/1.0.0' symbolicname='com.ptoceti.osgi.dfrobot.sensornode' presentationname='SensorNode' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.dfrobot.sensornode/1.0.0/com.ptoceti.osgi.dfrobot.sensornode-1.0.0.jar' version='1.0.0'>
+    <description>Dfrobot SensorNode device</description>
+    <size>32988</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.dfrobot.sensornode'/>
+      <p n='presentationname' v='SensorNode'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.dfrobot.sensornode'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.ptoceti.osgi.control)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.ptoceti.osgi.control;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=gnu.io)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package gnu.io;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.kxml2.io))' extend='false' multiple='false' optional='false'>Import package org.kxml2.io</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.wireadmin)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.wireadmin;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.xmlpull.v1)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.xmlpull.v1;version="[1.1,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.sqlite/1.0.0' symbolicname='com.ptoceti.osgi.sqlite' presentationname='SQLite' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.sqlite/1.0.0/com.ptoceti.osgi.sqlite-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s packaging of SQLite</description>
+    <size>4030680</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.sqlite'/>
+      <p n='presentationname' v='SQLite'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ptoceti.osgi.sqlite'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.sql,org.osgi.framework,org.osgi.service.jdbc'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.sql))' extend='false' multiple='false' optional='false'>Import package javax.sql</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.jdbc)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.jdbc;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+  </resource>
+  <resource id='com.ptoceti.osgi.wireadmin/1.0.0' symbolicname='com.ptoceti.osgi.wireadmin' presentationname='WireAdmin' uri='http://192.168.10.3:8080/nexus-2.0.5/content/repositories/releases/com/ptoceti/com.ptoceti.osgi.wireadmin/1.0.0/com.ptoceti.osgi.wireadmin-1.0.0.jar' version='1.0.0'>
+    <description>Ptoceti&apos;s wire admin service</description>
+    <size>36019</size>
+    <documentation>www.ptoceti.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ptoceti.osgi.wireadmin'/>
+      <p n='presentationname' v='WireAdmin'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.kxml2.io))' extend='false' multiple='false' optional='false'>Import package org.kxml2.io</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.log;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.wireadmin)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.wireadmin;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.xmlpull.v1)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.xmlpull.v1;version="[1.1,2)"</require>
+  </resource>
+</repository>
